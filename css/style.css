@@ -1,0 +1,77 @@
+body {
+  background-color: #2bbbc3;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.container {
+  min-width: 300px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+ul.menu {
+  list-style: none;
+  line-height: 1.6;
+  margin: 0;
+  padding: 4px;
+}
+
+ul.menu li:first-child {
+  width: 33.4%
+}
+
+ul.menu li {
+  width: 33.3%;
+  display: list-item;
+  float: left;
+}
+
+ul.menu li button {
+  text-align: center;
+  padding: 10px 30px;
+  margin: 10px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #2bbbc3;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+}
+
+ul.menu li button:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+.timer {
+  user-select: none;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.controls {
+  display: inline;
+}
+
+#pomodoro {
+  font-size: 96px;
+  margin: 0 5px;
+}
+
+#plus_btn, #minus_btn {
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 96px;
+}
